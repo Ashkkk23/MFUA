@@ -1,0 +1,33 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace project1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int age = 19;
+            string gender = "мужской";
+            string height = "170";
+            string name = "Ashot";
+            string surname = "Martirosyan";
+            string lastname = "Armenovich";
+            string group = "02БИд4220";
+            int weight = 65;
+            string adress = "Moscow";
+            Console.WriteLine("Мой возраст : " + age + " лет ");
+            Console.WriteLine("Мой пол : " + gender);
+            Console.WriteLine("Мой рост : " + height + " см ");
+            Console.WriteLine("Мой вес : " + weight + " кг ");
+            Console.WriteLine("Моё имя : " + name);
+            Console.WriteLine("Моя фамилия : " + surname);
+            Console.WriteLine("Мое отчество : " + lastname);
+            Console.WriteLine("Я учусь в группе : " + group);
+            Console.WriteLine("Я живу в : " + adress);
+        }
+    }
+}
